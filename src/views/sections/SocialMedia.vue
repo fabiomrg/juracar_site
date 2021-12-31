@@ -16,19 +16,19 @@
       >
         Será um prazer poder atende-los! Estamos aguardando seu contato:
       </base-section-heading>
-        
+      
          <v-icon right>
           mdi-google-maps
         </v-icon>
-        Endereços:<br/> Rua Artur de Azevedo, 891 - Pinheiros <br/>
-        Rua Topázio, 567 - Aclimação <br/>
-        São Paulo - SP <br/>
+        <b>Endereços:</b><br/><a href="https://goo.gl/maps/jSAQVLUaqGfpqBkHA" style="color:#FFFFFF">Rua Artur de Azevedo, 891 - Pinheiros - SP</a><br/>
+         <a href="https://goo.gl/maps/Wk4azBa258cMWajy7" style="color:#FFFFFF">Rua Topázio, 567 - Aclimação - SP</a> <br/>
+        São Paulo - SP <br/><br/>
 
 
         <v-icon right>
           mdi-phone
         </v-icon>
-        <a href="tel:+55-11-98423-5612">(11) 98423-5612</a> <br/><br/>
+        <b>Telefone / WhatsApp:</b><br/><a href="tel:+55-11-98423-5612" style="color:#FFFFFF">(11) 98423-5612</a> <br/>
         
       <div class="py-4" />
 

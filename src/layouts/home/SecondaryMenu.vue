@@ -4,8 +4,8 @@
     :close-on-content-click="true"
     bottom
     left
-    max-width="100%"
-    min-width="120"
+    max-width="80%"
+    min-width="320"
     offset-x
     offset-y
     origin="top left"
@@ -13,18 +13,20 @@
   >
     <template #activator="{ attrs, on }">
       <v-card
-        id="settings"
+        id="secondary-menu"
         class="py-2 px-4"
-        outlined
-        color="accent"
+        color="#b45e00"
+        dark
         flat
-        style="position: fixed; top: 20px; left: -5px;"
-        width="70"
+        style="position: fixed; top: 100px; left: -10px; text-align: right;"
+        width="180"
         v-bind="attrs"
         v-on="on"
       >
-        <v-icon large color="white">
-          mdi-menu
+       
+        Endereços
+         <v-icon large >
+          mdi-google-maps
         </v-icon>
       </v-card>
     </template>
@@ -33,47 +35,39 @@
       <br/>
       <base-title
         align="center"
-        title="Menu"
+        title="Endereços"
         space="0"
       />
 
       <v-card-text>
-    
-        <v-divider class="my-6" />
-        <base-btn
-          block
-          @click="$vuetify.goTo('#theme-features')"
+        <v-item-group
          
-          class="mb-6"
-          color="black"
-          outlined
-          target="_blank"
+          class="d-flex justify-center"
         >
-          Serviços
-        </base-btn>
-        <base-btn
-          block
-          @click="$vuetify.goTo('#galeria')"
-          class="mb-6"
-          color="black"
-          outlined
-          target="_blank"
-        >
-         Galeria
-          
-        </base-btn>
-        <base-btn
-          block
-          @click="$vuetify.goTo('#contatos')"
-          class="mb-6"
-          color="black"
-          outlined
-          target="_blank"
-        >
-        
-          Endereços
-        </base-btn>
+        </v-item-group>
 
+        <v-divider class="my-6" />
+
+
+       <div
+          class="mr-4"
+         
+        >
+          <v-icon left>
+            mdi-google-maps
+          </v-icon>
+          <a href="https://goo.gl/maps/jSAQVLUaqGfpqBkHA" style="color:#000000 font-family: arial !important;">Rua Artur de Azevedo, 891 - Pinheiros - SP</a>
+        </div>
+        <div>
+        <v-divider class="my-6" />
+         <v-icon left>
+            mdi-google-maps
+          </v-icon>
+          <a href="https://goo.gl/maps/Wk4azBa258cMWajy7" style="color:#000000">Rua Topázio, 567 - Aclimação - SP</a>
+        </div>
+
+
+         
       </v-card-text>
     </v-card>
   </v-menu>
@@ -87,10 +81,10 @@
       return {
         colors: [
           this.$vuetify.theme.currentTheme.primary,
-          '#5568e9',
+          '#9368e9',
           '#F4511E',
         ],
-        
+        menu: false,
       }
     },
 

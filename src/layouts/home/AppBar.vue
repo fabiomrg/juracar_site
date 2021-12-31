@@ -5,7 +5,7 @@
       app
       elevation="1"
       :height="barHeight"
-      color="#d6a534"
+      color="#30537f"
       >
         <home-menu/>
 
@@ -16,13 +16,38 @@
                 <base-img  
                   class="mr-3" 
                   contain
-                  max-width="100"
-                  width="80%"
+                  max-width="200"
+                  width="100%"
                   :src="require('@/assets/logo.png')"
                 
                 />
+                 <v-divider 
+                    vertical
+                    inset
+                    class="mr-3 hidden-xs-only"
+                  />
+                  <div class="mr-3 hidden-xs-only" style="text-align: center; padding-left: 16px; padding-right: 16px;">
+                    <p class="text-white">
+                      <v-icon left color="white">
+                        mdi-google-maps
+                      </v-icon>  
+                      <b>Endereços</b><br/><a href="https://goo.gl/maps/jSAQVLUaqGfpqBkHA" style="color:#FFFFFF">Rua Artur de Azevedo, 891 - Pinheiros - SP</a><br/>
+                      <a href="https://goo.gl/maps/Wk4azBa258cMWajy7" style="color:#FFFFFF;">Rua Topázio, 567 - Aclimação - SP</a></p>
+                  </div>
+                  <v-divider 
+                    vertical
+                    inset
+                    class="mr-3 hidden-xs-only"
+                  />
+                  <div class="mr-3 hidden-xs-only" style="text-align: center; padding-left: 16px; padding-right: 16px;">
+                  <p class="text-white"  >
+                    <v-icon left color="white">
+                      mdi-phone
+                    </v-icon>  
+                    <b>Telefone / WhatsApp</b><br/> <a href="tel:+55-11-98423-5612" style="color:#FFFFFF">(11) 98423-5612</a> <br/><br/></p>
+                  </div>
+                
               
-            
           </v-row>
 
           <v-row no-gutters>

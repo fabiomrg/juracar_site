@@ -152,6 +152,13 @@
       features: [
   
         {      
+          title: 'Auto Socorro ',
+          icon: 'mdi-hospital-box-outline',
+          text:'Atendimento de auto socorro em domicílio ou onde estiver precisando de nossa ajuda.'
+        
+        },
+
+        {      
           title: 'Mecânica em geral',
           icon: 'mdi-tools',
           text:'Serviços gerais de mecânica. Traga seu carro para uma avaliação.'
@@ -193,7 +200,7 @@
         {
           title: 'Pneus novos e usados',
           icon: 'mdi-tire',
-          text: 'Venha escolher seu pneu novo ou mesmo a troca por um usado em boas condições. Passe por uma análie com nossa equipe.'
+          text: 'Venha escolher seu pneu novo ou mesmo a troca por um usado em boas condições. Passe por uma análise com nossa equipe.'
 
         },
         
