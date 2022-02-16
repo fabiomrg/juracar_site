@@ -58,13 +58,7 @@
           </v-icon>
           <a href="https://goo.gl/maps/jSAQVLUaqGfpqBkHA" style="color:#000000 font-family: arial !important;">Rua Artur de Azevedo, 891 - Pinheiros - SP</a>
         </div>
-        <div>
-        <v-divider class="my-6" />
-         <v-icon left>
-            mdi-google-maps
-          </v-icon>
-          <a href="https://goo.gl/maps/Wk4azBa258cMWajy7" style="color:#000000">Rua Topázio, 567 - Aclimação - SP</a>
-        </div>
+     
 
 
          

@@ -20,8 +20,8 @@
          <v-icon right>
           mdi-google-maps
         </v-icon>
-        <b>Endereços:</b><br/><a href="https://goo.gl/maps/jSAQVLUaqGfpqBkHA" style="color:#FFFFFF">Rua Artur de Azevedo, 891 - Pinheiros - SP</a><br/>
-         <a href="https://goo.gl/maps/Wk4azBa258cMWajy7" style="color:#FFFFFF">Rua Topázio, 567 - Aclimação - SP</a> <br/>
+        <b>Endereço:</b><br/><a href="https://goo.gl/maps/jSAQVLUaqGfpqBkHA" style="color:#FFFFFF">Rua Artur de Azevedo, 891 - Pinheiros - SP</a><br/>
+        
         São Paulo - SP <br/><br/>
 
 
